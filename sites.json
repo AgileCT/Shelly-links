@@ -58,6 +58,11 @@
           "name": "Stratify",
           "url": "https://stratify.agilecommercetech.com/login?next=%2F",
           "desc": "策略分析与管理平台"
+        },
+        {
+          "name": "AgileCT App",
+          "url": "https://app.agilecommercetech.com/login",
+          "desc": "AgileCT 主应用平台"
         }
       ]
     },
