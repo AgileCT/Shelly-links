@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="55 0 115 75" role="img" aria-label="AgileCT">
+  <!-- Protective arc (terracotta) -->
+  <path d="M 60,60 A 50,50 0 0,1 160,60" fill="none" stroke="#c9684a" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- A mark icon -->
+  <g transform="translate(90,18)">
+    <polygon points="23,2 30,2 13,46 4,46" fill="#0f1624"/>
+    <polygon points="16,2 23,2 40,46 31,46" fill="#0f1624"/>
+    <polygon points="6,37 38,19 42,27 10,45" fill="#0f1624"/>
+    <polygon points="31,37 40,46 31,46" fill="#c9684a"/>
+  </g>
+</svg>

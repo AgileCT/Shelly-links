@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 126" role="img" aria-label="AgileCT – Protect what powers Canada">
+  <title>AgileCT – Protect what powers Canada</title>
+
+  <!-- Protective arc (terracotta) — sheltering roofline above the A -->
+  <path d="M 60,60 A 50,50 0 0,1 160,60" fill="none" stroke="#c9684a" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- A mark icon (centered under arc) -->
+  <g transform="translate(90,18)">
+    <polygon points="23,2 30,2 13,46 4,46" fill="#0f1624"/>
+    <polygon points="16,2 23,2 40,46 31,46" fill="#0f1624"/>
+    <polygon points="6,37 38,19 42,27 10,45" fill="#0f1624"/>
+    <polygon points="31,37 40,46 31,46" fill="#c9684a"/>
+  </g>
+
+  <!-- AgileCT wordmark (centered) -->
+  <text text-anchor="middle" x="110" y="97" font-family="Georgia,'Times New Roman',serif" font-size="26" font-weight="400">
+    <tspan fill="#0f1624">Agile</tspan><tspan fill="#c9684a">CT</tspan>
+  </text>
+
+  <!-- Tagline -->
+  <text text-anchor="middle" x="110" y="115" font-family="Inter,ui-sans-serif,system-ui,sans-serif" font-size="12" font-weight="400" letter-spacing="0.02em" fill="#44596a">Protect what powers Canada</text>
+</svg>

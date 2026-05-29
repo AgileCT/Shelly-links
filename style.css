@@ -10,7 +10,19 @@ body {
 header {
   background: #fff;
   border-bottom: 1px solid #e5e5e5;
-  padding: 24px 32px;
+  padding: 20px 32px;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.site-logo {
+  height: 48px;
+  width: auto;
+  flex-shrink: 0;
 }
 
 header h1 {
