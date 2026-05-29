@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的导航</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="site-title">我的导航</h1>
+    <p>常用工具与灵感收藏</p>
+  </header>
+
+  <main id="content"></main>
+
+  <script>
+    const FAVICON_API = 'https://www.google.com/s2/favicons?domain=';
+
+    function getFaviconUrl(siteUrl) {
+      try {
+        const domain = new URL(siteUrl).hostname;
+        return FAVICON_API + domain + '&sz=32';
+      } catch {
+        return null;
+      }
+    }
+
+    function renderSite(site) {
+      const a = document.createElement('a');
+      a.className = 'site-card';
+      a.href = site.url;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+
+      const faviconUrl = getFaviconUrl(site.url);
+
+      const siteInfo = document.createElement('div');
+      siteInfo.className = 'site-info';
+
+      const siteName = document.createElement('div');
+      siteName.className = 'site-name';
+      siteName.textContent = site.name;
+
+      const siteDesc = document.createElement('div');
+      siteDesc.className = 'site-desc';
+      siteDesc.textContent = site.desc;
+
+      siteInfo.appendChild(siteName);
+      siteInfo.appendChild(siteDesc);
+
+      if (faviconUrl) {
+        const img = document.createElement('img');
+        img.src = faviconUrl;
+        img.alt = '';
+        img.onerror = function() {
+          this.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Crect width='20' height='20' rx='4' fill='%23e5e5e5'/%3E%3C/svg%3E";
+        };
+        a.appendChild(img);
+      }
+      a.appendChild(siteInfo);
+      return a;
+    }
+
+    function renderCategory(category) {
+      const section = document.createElement('section');
+      section.className = 'category';
+
+      const h2 = document.createElement('h2');
+      h2.textContent = category.name;
+      section.appendChild(h2);
+
+      const grid = document.createElement('div');
+      grid.className = 'sites-grid';
+      category.sites.forEach(site => grid.appendChild(renderSite(site)));
+      section.appendChild(grid);
+
+      return section;
+    }
+
+    async function init() {
+      const res = await fetch('sites.json');
+      if (!res.ok) throw new Error(`Failed to load sites.json: ${res.status}`);
+      const data = await res.json();
+
+      document.title = data.title;
+      document.getElementById('site-title').textContent = data.title;
+
+      const content = document.getElementById('content');
+      data.categories.forEach(cat => content.appendChild(renderCategory(cat)));
+    }
+
+    init().catch(() => {
+      document.getElementById('content').innerHTML =
+        '<p style="color:red;padding:20px">加载失败，请检查 sites.json 是否存在。</p>';
+    });
+  </script>
+</body>
+</html>

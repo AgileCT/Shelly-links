@@ -1,0 +1,60 @@
+{
+  "title": "我的导航",
+  "categories": [
+    {
+      "name": "🔧 工具",
+      "sites": [
+        {
+          "name": "AutoApply - AiApply",
+          "url": "https://checkout.aiapply.co",
+          "desc": "AI 自动投简历工具"
+        },
+        {
+          "name": "linkedin-agent",
+          "url": "https://github.com/",
+          "desc": "LinkedIn 自动化代理"
+        }
+      ]
+    },
+    {
+      "name": "💻 开发",
+      "sites": [
+        {
+          "name": "FMP Dashboard",
+          "url": "https://dashboard.financialmodelingprep.com",
+          "desc": "Financial Modeling Prep API 控制台"
+        },
+        {
+          "name": "vendor-guard · Supabase",
+          "url": "https://supabase.com/dashboard",
+          "desc": "vendor-guard 项目的 Supabase 后台"
+        },
+        {
+          "name": "ethan-smith-distillation",
+          "url": "https://github.com/zilisrikle/ethan-smith-distillation",
+          "desc": "GitHub 仓库"
+        }
+      ]
+    },
+    {
+      "name": "💡 灵感",
+      "sites": [
+        {
+          "name": "拆解 2030 · 未来产业逆向技术树",
+          "url": "https://",
+          "desc": "未来产业逆向技术树"
+        },
+        {
+          "name": "推演路径 · ZERO 2076",
+          "url": "https://",
+          "desc": "未来推演路径"
+        },
+        {
+          "name": "股运签 · 全球股票幸运抽卡",
+          "url": "https://",
+          "desc": "全球股票幸运抽卡"
+        }
+      ]
+    }
+  ]
+}
