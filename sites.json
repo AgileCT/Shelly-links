@@ -23,6 +23,11 @@
           "name": "CoFounder",
           "url": "https://cofounder.co",
           "desc": "联合创始人匹配平台"
+        },
+        {
+          "name": "Huru",
+          "url": "https://huru.ai",
+          "desc": "AI 面试练习，针对 JD 定制题目"
         }
       ]
     },
