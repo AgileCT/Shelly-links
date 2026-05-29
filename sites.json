@@ -53,6 +53,11 @@
           "name": "Wise ETF 指南",
           "url": "https://www.wise-etf.com/guide",
           "desc": "ETF 投资入门指南"
+        },
+        {
+          "name": "Wise Hold",
+          "url": "https://www.wise-hold.com",
+          "desc": "持仓管理与分析"
         }
       ]
     },
