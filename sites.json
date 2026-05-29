@@ -13,6 +13,11 @@
           "name": "linkedin-agent",
           "url": "https://github.com/",
           "desc": "LinkedIn 自动化代理"
+        },
+        {
+          "name": "AnySearch",
+          "url": "https://www.anysearch.com/home",
+          "desc": "多源聚合搜索工具"
         }
       ]
     },
