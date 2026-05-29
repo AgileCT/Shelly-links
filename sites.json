@@ -63,6 +63,11 @@
           "name": "AgileCT App",
           "url": "https://app.agilecommercetech.com/login",
           "desc": "AgileCT 主应用平台"
+        },
+        {
+          "name": "AgileCT 官网",
+          "url": "https://www.agilecommercetech.com",
+          "desc": "AgileCT 官方网站"
         }
       ]
     },
