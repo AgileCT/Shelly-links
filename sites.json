@@ -18,6 +18,11 @@
           "name": "AnySearch",
           "url": "https://www.anysearch.com/home",
           "desc": "多源聚合搜索工具"
+        },
+        {
+          "name": "CoFounder",
+          "url": "https://cofounder.co",
+          "desc": "联合创始人匹配平台"
         }
       ]
     },
