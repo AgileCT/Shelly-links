@@ -48,6 +48,11 @@
           "name": "美股护理",
           "url": "https://meiguhuli.com",
           "desc": "美股追踪与管理"
+        },
+        {
+          "name": "Wise ETF 指南",
+          "url": "https://www.wise-etf.com/guide",
+          "desc": "ETF 投资入门指南"
         }
       ]
     },
