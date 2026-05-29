@@ -105,6 +105,11 @@
       "name": "💡 灵感",
       "sites": [
         {
+          "name": "YouMind",
+          "url": "https://youmind.com/new-task",
+          "desc": "AI 灵感与任务管理"
+        },
+        {
           "name": "拆解 2030 · 未来产业逆向技术树",
           "url": "https://",
           "desc": "未来产业逆向技术树"
