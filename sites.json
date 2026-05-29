@@ -1,128 +1,129 @@
 {
-  "title": "我的导航",
+  "title": { "zh": "我的导航", "en": "My Links" },
+  "subtitle": { "zh": "常用工具与灵感收藏", "en": "Tools, inspiration & bookmarks" },
   "categories": [
     {
-      "name": "🔧 工具",
+      "name": { "zh": "🔧 工具", "en": "🔧 Tools" },
       "sites": [
         {
           "name": "AutoApply - AiApply",
           "url": "https://checkout.aiapply.co",
-          "desc": "AI 自动投简历工具"
+          "desc": { "zh": "AI 自动投简历工具", "en": "AI-powered job application tool" }
         },
         {
           "name": "linkedin-agent",
           "url": "https://github.com/",
-          "desc": "LinkedIn 自动化代理"
+          "desc": { "zh": "LinkedIn 自动化代理", "en": "LinkedIn automation agent" }
         },
         {
           "name": "AnySearch",
           "url": "https://www.anysearch.com/home",
-          "desc": "多源聚合搜索工具"
+          "desc": { "zh": "多源聚合搜索工具", "en": "Multi-source aggregated search" }
         },
         {
           "name": "CoFounder",
           "url": "https://cofounder.co",
-          "desc": "联合创始人匹配平台"
+          "desc": { "zh": "联合创始人匹配平台", "en": "Co-founder matching platform" }
         },
         {
           "name": "Huru",
           "url": "https://huru.ai",
-          "desc": "AI 面试练习，针对 JD 定制题目"
+          "desc": { "zh": "AI 面试练习，针对 JD 定制题目", "en": "AI interview practice, tailored to your JD" }
         }
       ]
     },
     {
-      "name": "💻 开发",
+      "name": { "zh": "💻 开发", "en": "💻 Dev" },
       "sites": [
         {
           "name": "FMP Dashboard",
           "url": "https://dashboard.financialmodelingprep.com",
-          "desc": "Financial Modeling Prep API 控制台"
+          "desc": { "zh": "Financial Modeling Prep API 控制台", "en": "Financial Modeling Prep API console" }
         },
         {
           "name": "vendor-guard · Supabase",
           "url": "https://supabase.com/dashboard",
-          "desc": "vendor-guard 项目的 Supabase 后台"
+          "desc": { "zh": "vendor-guard 项目的 Supabase 后台", "en": "Supabase backend for vendor-guard" }
         },
         {
           "name": "ethan-smith-distillation",
           "url": "https://github.com/zilisrikle/ethan-smith-distillation",
-          "desc": "GitHub 仓库"
+          "desc": { "zh": "GitHub 仓库", "en": "GitHub repository" }
         }
       ]
     },
     {
-      "name": "🚀 我的作品",
+      "name": { "zh": "🚀 我的作品", "en": "🚀 My Work" },
       "sites": [
         {
           "name": "Insurance Readiness",
           "url": "https://insurance-readiness.agilecommercetech.com/portal/requests",
-          "desc": "保险就绪度评估平台"
+          "desc": { "zh": "保险就绪度评估平台", "en": "Insurance readiness assessment platform" }
         },
         {
           "name": "Stratify",
           "url": "https://stratify.agilecommercetech.com/login?next=%2F",
-          "desc": "策略分析与管理平台"
+          "desc": { "zh": "策略分析与管理平台", "en": "Strategy analysis & management platform" }
         },
         {
           "name": "Vendor Guard",
           "url": "https://app.agilecommercetech.com/login",
-          "desc": "供应商风险管理平台"
+          "desc": { "zh": "供应商风险管理平台", "en": "Vendor risk management platform" }
         },
         {
-          "name": "AgileCT 公司官网",
+          "name": "AgileCT",
           "url": "https://www.agilecommercetech.com",
-          "desc": "我们公司的官方网站"
+          "desc": { "zh": "我们公司的官方网站", "en": "Our company website" }
         }
       ]
     },
     {
-      "name": "📈 投资",
+      "name": { "zh": "📈 投资", "en": "📈 Investing" },
       "sites": [
         {
           "name": "Day1 Brief",
           "url": "https://brief.day1global.xyz",
-          "desc": "股票资讯简报"
+          "desc": { "zh": "股票资讯简报", "en": "Daily stock market brief" }
         },
         {
           "name": "美股狐狸",
           "url": "https://meiguhuli.com",
-          "desc": "美股追踪与管理"
+          "desc": { "zh": "美股追踪与管理", "en": "US stock tracking & management" }
         },
         {
-          "name": "Wise ETF 指南",
+          "name": "Wise ETF",
           "url": "https://www.wise-etf.com/guide",
-          "desc": "ETF 投资入门指南"
+          "desc": { "zh": "ETF 投资入门指南", "en": "ETF investment beginner's guide" }
         },
         {
           "name": "Wise Hold",
           "url": "https://www.wise-hold.com",
-          "desc": "持仓管理与分析"
+          "desc": { "zh": "持仓管理与分析", "en": "Portfolio management & analysis" }
         }
       ]
     },
     {
-      "name": "💡 灵感",
+      "name": { "zh": "💡 灵感", "en": "💡 Inspiration" },
       "sites": [
         {
           "name": "YouMind",
           "url": "https://youmind.com/new-task",
-          "desc": "AI 灵感与任务管理"
+          "desc": { "zh": "AI 灵感与任务管理", "en": "AI inspiration & task management" }
         },
         {
-          "name": "拆解 2030 · 未来产业逆向技术树",
+          "name": "拆解 2030",
           "url": "https://",
-          "desc": "未来产业逆向技术树"
+          "desc": { "zh": "未来产业逆向技术树", "en": "Reverse tech tree for future industries" }
         },
         {
-          "name": "推演路径 · ZERO 2076",
+          "name": "ZERO 2076",
           "url": "https://",
-          "desc": "未来推演路径"
+          "desc": { "zh": "未来推演路径", "en": "Future evolution path simulation" }
         },
         {
-          "name": "股运签 · 全球股票幸运抽卡",
+          "name": "股运签",
           "url": "https://",
-          "desc": "全球股票幸运抽卡"
+          "desc": { "zh": "全球股票幸运抽卡", "en": "Global stock lucky draw" }
         }
       ]
     }

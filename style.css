@@ -17,6 +17,29 @@ header {
   display: flex;
   align-items: center;
   gap: 14px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header-text {
+  flex: 1;
+}
+
+#lang-toggle {
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 5px 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #444;
+  transition: background 0.15s;
+  flex-shrink: 0;
+}
+
+#lang-toggle:hover {
+  background: #e0e0e0;
 }
 
 .site-logo {
