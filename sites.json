@@ -53,6 +53,11 @@
           "name": "Insurance Readiness",
           "url": "https://insurance-readiness.agilecommercetech.com/portal/requests",
           "desc": "保险就绪度评估平台"
+        },
+        {
+          "name": "Stratify",
+          "url": "https://stratify.agilecommercetech.com/login?next=%2F",
+          "desc": "策略分析与管理平台"
         }
       ]
     },
