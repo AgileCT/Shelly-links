@@ -21,8 +21,18 @@ header {
   margin: 0 auto;
 }
 
-.header-text {
+.header-title-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   flex: 1;
+  justify-content: flex-end;
 }
 
 #lang-toggle {
@@ -43,7 +53,7 @@ header {
 }
 
 .site-logo {
-  height: 32px;
+  height: 1.5rem;
   width: auto;
   flex-shrink: 0;
 }
