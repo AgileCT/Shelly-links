@@ -122,7 +122,7 @@
         },
         {
           "name": "股运签",
-          "url": "https://",
+          "url": "https://stock-luck-card-game.vercel.app/",
           "desc": { "zh": "全球股票幸运抽卡", "en": "Global stock lucky draw" }
         }
       ]
