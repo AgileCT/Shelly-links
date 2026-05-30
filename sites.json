@@ -71,6 +71,11 @@
           "desc": { "zh": "供应商风险管理平台", "en": "Vendor risk management platform" }
         },
         {
+          "name": "Andrew Tutor",
+          "url": "https://andrew-tutor.vercel.app",
+          "desc": { "zh": "AI 辅导平台", "en": "AI tutoring platform" }
+        },
+        {
           "name": "AgileCT",
           "url": "https://www.agilecommercetech.com",
           "desc": { "zh": "我们公司的官方网站", "en": "Our company website" }
