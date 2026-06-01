@@ -76,6 +76,11 @@
           "desc": { "zh": "供应商风险管理平台", "en": "Vendor risk management platform" }
         },
         {
+          "name": "Decon AI Stack",
+          "url": "https://decon-ai-stack.vercel.app",
+          "desc": { "zh": "AI 算力供应链可视化", "en": "AI compute supply chain visualization" }
+        },
+        {
           "name": "AAISM Study Planner",
           "url": "https://aaism-study-planner.vercel.app",
           "desc": { "zh": "AI 安全学习规划工具", "en": "AI security study planner" }
