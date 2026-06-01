@@ -76,6 +76,11 @@
           "desc": { "zh": "供应商风险管理平台", "en": "Vendor risk management platform" }
         },
         {
+          "name": "AAISM Study Planner",
+          "url": "https://aaism-study-planner.vercel.app",
+          "desc": { "zh": "AI 安全学习规划工具", "en": "AI security study planner" }
+        },
+        {
           "name": "Andrew Tutor",
           "url": "https://andrew-tutor.vercel.app",
           "desc": { "zh": "AI 辅导平台", "en": "AI tutoring platform" }
