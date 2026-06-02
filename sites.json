@@ -126,6 +126,11 @@
       "name": { "zh": "💡 灵感", "en": "💡 Inspiration" },
       "sites": [
         {
+          "name": "MAIC Chat",
+          "url": "https://open.maic.chat",
+          "desc": { "zh": "AI 对话与灵感探索", "en": "AI chat & inspiration" }
+        },
+        {
           "name": "YouMind",
           "url": "https://youmind.com/new-task",
           "desc": { "zh": "AI 灵感与任务管理", "en": "AI inspiration & task management" }
