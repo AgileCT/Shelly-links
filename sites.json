@@ -81,6 +81,11 @@
           "desc": { "zh": "MAIC 课堂", "en": "MAIC classroom" }
         },
         {
+          "name": "MAIC 中文课堂",
+          "url": "https://open.maic.chat/classroom/INpltrJztS",
+          "desc": { "zh": "MAIC 中文课堂", "en": "MAIC Chinese classroom" }
+        },
+        {
           "name": "Decon AI Stack",
           "url": "https://decon-ai-stack.vercel.app",
           "desc": { "zh": "AI 算力供应链可视化", "en": "AI compute supply chain visualization" }
