@@ -76,6 +76,11 @@
           "desc": { "zh": "供应商风险管理平台", "en": "Vendor risk management platform" }
         },
         {
+          "name": "MAIC Classroom",
+          "url": "http://open.maic.chat/classroom/ff66OPX4Kz",
+          "desc": { "zh": "MAIC 课堂", "en": "MAIC classroom" }
+        },
+        {
           "name": "Decon AI Stack",
           "url": "https://decon-ai-stack.vercel.app",
           "desc": { "zh": "AI 算力供应链可视化", "en": "AI compute supply chain visualization" }
