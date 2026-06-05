@@ -86,6 +86,11 @@
           "desc": { "zh": "供应商风险管理平台", "en": "Vendor risk management platform" }
         },
         {
+          "name": "Customer Security Questionnaire",
+          "url": "https://customer-security-questionnaire-res.vercel.app/login",
+          "desc": { "zh": "客户安全问卷响应平台", "en": "Customer security questionnaire response platform" }
+        },
+        {
           "name": "MAIC Classroom",
           "url": "http://open.maic.chat/classroom/ff66OPX4Kz",
           "desc": { "zh": "MAIC 课堂", "en": "MAIC classroom" }
