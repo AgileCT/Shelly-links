@@ -31,6 +31,11 @@
           "desc": { "zh": "AI 面试练习，针对 JD 定制题目", "en": "AI interview practice, tailored to your JD" }
         },
         {
+          "name": "HyperAgent",
+          "url": "https://hyperagent.com",
+          "desc": { "zh": "AI Agent 自动化平台", "en": "AI agent automation platform" }
+        },
+        {
           "name": "Design.com",
           "url": "https://www.design.com",
           "desc": { "zh": "在线设计工具", "en": "Online design tool" }
