@@ -31,6 +31,11 @@
           "desc": { "zh": "AI 面试练习，针对 JD 定制题目", "en": "AI interview practice, tailored to your JD" }
         },
         {
+          "name": "Design.com",
+          "url": "https://www.design.com",
+          "desc": { "zh": "在线设计工具", "en": "Online design tool" }
+        },
+        {
           "name": "天工 AI",
           "url": "https://www.tiangong.cn/?wx=1",
           "desc": { "zh": "国产 AI 助手", "en": "Chinese AI assistant" }
